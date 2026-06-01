@@ -1,17 +1,17 @@
 # ecomm_app_flutter
 
-A new Flutter project.
+This is a clean, minimal e-commerce app I put together using Flutter. I wanted to focus on creating a smooth user experience with a polished, modern look—moving away from the default material styles to something a bit more premium. This is purely a beginner project built for learning purposes and understand how to manage app state dynamically.
 
-## Getting Started
+## 🚀 Quick Look at the Features
 
-This project is a starting point for a Flutter application.
+* **Minimalist UI:** Swapped out the harsh default blues for a sleek dark/light contrast theme.
+* **Horizontal Product Feed:** A clean, swipeable "Hot Picks" section on the shop page with custom product cards.
+* **Live Shopping Cart:** Add items from the shop, see your list dynamically update in the cart page, and watch the total price adjust in real-time.
+* **Fluid Layout:** Uses custom bottom navigation and a hidden side drawer for clean, distraction-free browsing.
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ The Tech Stuff
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+* **Framework:** Flutter (Dart)
+* **State Management:** Provider (simple, clean, and reliable). It uses the **Provider** package to handle the shopping cart state smoothly across different screens.
+* **Architecture:** Kept things modular by separating components (like tiles and list items) from the main pages.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
